@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GradeBook.GradeBooks;
+using GradeBook.Enums;
 
 namespace GradeBook.GradeBooks
 {
@@ -11,7 +12,7 @@ namespace GradeBook.GradeBooks
     {
         public StandardGradeBook(string name) : base(name)
         {
-
+            Type = GradeBookType.Standard;
         }
     }
 }

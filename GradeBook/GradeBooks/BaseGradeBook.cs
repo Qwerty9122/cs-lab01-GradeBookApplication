@@ -9,13 +9,6 @@ using Newtonsoft.Json.Linq;
 
 namespace GradeBook.GradeBooks
 {
-    public enum GradeBookType
-    {
-        Standard,
-        Ranked,
-        Weighted
-    }
-
     public abstract class BaseGradeBook
     {
         public string Name { get; set; }

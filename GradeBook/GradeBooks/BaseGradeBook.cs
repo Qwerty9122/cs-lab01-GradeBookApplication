@@ -16,7 +16,7 @@ namespace GradeBook.GradeBooks
         Weighted
     }
 
-    public class BaseGradeBook
+    public abstract class BaseGradeBook
     {
         public string Name { get; set; }
         public List<Student> Students { get; set; }
